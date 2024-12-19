@@ -1,0 +1,33 @@
+{
+  "name": "inpursuit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+
+  "engines": {
+    "node": "18.x"
+  },
+
+  "dependencies": {
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "canvas": "^2.11.2",
+    "next": "15.0.3",
+    "nodemailer": "^6.9.16",
+    "pdfjs-dist": "^3.9.179",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "canvas": "^2.10.0"
+  }
+}
